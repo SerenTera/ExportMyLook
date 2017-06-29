@@ -22,4 +22,4 @@ If you want to use the command in chat other than '/proxy' chat, you have to pre
 
 One word about exports/imports is that if you play across multiple servers, then the appearances of all the same named characters will changed to be the same. So be wise which one you chose to export with.
 
-Also, what the fileimport command does is to import the data from importdata.json into playerdata.json (the file created/saved in when you use dressupsave). After importing is done using duimport command, you can replace importdata.json with another player's so that multiple imports can be done from different players to create a common savefile (playerdata.json) where all the players characters will look like how it is on their end.
+Also, what the fileimport command does is to import the data from importdata.json into playerdata.json (the file created/saved in when you use dressupsave). After importing is done using fileimport command, you can replace importdata.json with another player's so that multiple imports can be done from different players to create a common savefile (playerdata.json) where all the players characters will look like how it is on their end.
