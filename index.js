@@ -145,7 +145,7 @@ module.exports = function exportlook(dispatch) {
 		if(fileopen) {
 			fileopen=false;
 			fs.writeFile(path.join(__dirname,filename), JSON.stringify(dataname), err => {
-				if(err) throw err;
+				if(err) command.message('Error writing file, retrying... If message keeps appearing, close proxy and check that the folder is able to be written into by giving permission.');
 				fileopen = true;
 			});
 		}
