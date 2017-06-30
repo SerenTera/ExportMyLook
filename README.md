@@ -18,7 +18,7 @@ If you want to use the command in chat other than '/proxy' chat, you have to pre
 
 - fileimport (name): Same as previous command, only that instead of importing all the characters inside importdata.json, you only import the named character. eg: 'fileimport seren' only imports seren character from importdata.json, even if other characters exists.
 
-- eltoggle: toggle disable/enabling of module.
+- eltoggle: toggle disable/enabling of module. Disabling stops automatically changing all saved targets costume.
 
 One word about exports/imports is that if you play across multiple servers, then the appearances of all the same named characters will changed to be the same. So be wise which one you chose to export with.
 
