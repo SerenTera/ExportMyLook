@@ -7,8 +7,9 @@ Use this module in conjunction with custom costume modules(like costume-ex) to e
 
 This module will change the appearances of anyone saved in playerdata.json, everytime the character comes into your visible vicinity.
 
-Module is enabled my default.
+Set 'MESSAGE_OVERRIDE_CHANGES' in index.js to false if you want to stop the module from messaging you everytime someone's costume is changed by this module. true will cause the module to notify you everytime someone costume is changed.
 
+Module is enabled my default.
 ## Commands (Copied from my other module)
 If you want to use the command in chat other than '/proxy' chat, you have to prefix the commands with an exclamation mark (!) .
 
