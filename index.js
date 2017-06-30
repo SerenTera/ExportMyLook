@@ -1,5 +1,5 @@
 const CUSTOM_MOD=true, //Set this to true if you use custom proxy modules that changes appearances using S_USER_EXTERNAL_CHANGE. Leave this as true if you don't know what it means
-	 MESSAGE_OVERRIDE_CHANGES=true;
+	 MESSAGE_OVERRIDE_CHANGES=true; // Set this to false if you want to stop the messages everytime someone's costume get changed by this module.
 
 const Command = require('command'),
 	  path = require('path'),
